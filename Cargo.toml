@@ -1,0 +1,13 @@
+[package]
+name = "cloneless_cow"
+version = "0.1.0"
+edition = "2021"
+authors = ["Austin Heller"]
+description = "A greatly-reduced implementation of Cow that does not require T to be Clone but allows for storing either a reference or an owned instance for future needs of references to T."
+readme = "README.md"
+repository = "https://github.com/AustinHellerRepo/cloneless_cow"
+license = "MIT OR Apache-2.0"
+keywords = ["no-std", "data", "memory", "enum", "lifetime"]
+categories = ["data-structures", "no-std"]
+
+[dependencies]
