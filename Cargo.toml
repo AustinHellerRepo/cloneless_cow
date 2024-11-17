@@ -1,6 +1,6 @@
 [package]
 name = "cloneless_cow"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Austin Heller"]
 description = "A greatly-reduced implementation of Cow that does not require T to be Clone but allows for storing either a reference or an owned instance for future needs of references to T."

@@ -1,3 +1,6 @@
+#![no_std]
+
+#[derive(Debug)]
 pub enum ClonelessCow<'a, T>
 where
     T: 'a,
